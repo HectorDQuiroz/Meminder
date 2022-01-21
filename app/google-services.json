@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "519723652225",
+    "project_id": "meminder-47b50",
+    "storage_bucket": "meminder-47b50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519723652225:android:0a7954d5813d2e24da2980",
+        "android_client_info": {
+          "package_name": "com.example.meminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519723652225-ggq1l02dfhnjhcugdd0li0tmg1k72d1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQpCKyBhzNCccan46eijtA2qo1tcl5opI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519723652225-ggq1l02dfhnjhcugdd0li0tmg1k72d1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

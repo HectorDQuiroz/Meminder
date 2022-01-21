@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:contentDescription="@string/content_description_ajustes"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/bnv_ajutes"
+        android:contentDescription="@string/content_description_ajustes"
+        android:icon="@drawable/ic_ajustes"
+        android:title="@string/ajutes" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+
+        <item>Día</item>
+        <item>Semana</item>
+        <item>Mes</item>
+        <item>Año</item>
+
+    </string-array>
+</resources>

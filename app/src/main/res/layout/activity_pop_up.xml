@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_popup">
+
+    <TextView
+        android:id="@+id/label_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/label_nombre_noty"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="55dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_nueva">
+
+        <RadioButton
+            android:id="@+id/rdhora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            tools:ignore="UnusedAttribute" />
+
+        <RadioButton
+            android:id="@+id/rddias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:buttonTint="@color/white"
+            tools:ignore="UnusedAttribute" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/label_mismodia"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_mismodia_noty"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/label_nueva" />
+
+    <TextView
+        android:id="@+id/label_hora"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_hora_noty"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/edt_hora"
+        android:layout_width="111dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginRight="212dp"
+        android:background="@drawable/custom_input"
+        android:clickable="true"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="@string/edit_hora"
+        android:importantForAutofill="no"
+        android:inputType="datetime"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/label_nueva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/label_cuenta_noty"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_dia"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/custom_input"
+        android:gravity="center"
+        android:hint="@string/edit_dia"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/label_mismodia" />
+
+    <TextView
+        android:id="@+id/label_mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/label_mensaje_noty"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_hora" />
+
+    <EditText
+        android:id="@+id/edt_mensaje"
+        android:layout_width="333dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/custom_input"
+        android:gravity="top"
+        android:hint="@string/edit_mensaje"
+        android:importantForAutofill="no"
+        android:inputType="text|textMultiLine"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btn_aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="528dp"
+        android:backgroundTint="@color/primary_blue"
+        android:onClick="onClick"
+        android:text="@string/btn_confirm"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/custom_button"
+        tools:ignore="UnusedAttribute" />
+
+    <Spinner
+        android:id="@+id/spinner_periodo"
+        android:layout_width="220dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/custom_spinner_popup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/edt_dia"
+        app:layout_constraintTop_toBottomOf="@+id/label_mismodia" />
+</androidx.constraintlayout.widget.ConstraintLayout>

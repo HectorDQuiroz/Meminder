@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.meminder">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MEMINDER">
+        <activity android:name=".PopUp"
+            android:theme="@style/PoPUp"/>
+        <activity android:name=".seguridad" />
+        <activity android:name=".cambiarcontrasena" />
+        <activity android:name=".detalles_Card" />
+        <activity android:name=".add_sub" />
+        <activity android:name=".activity_panprincipal" />
+        <activity android:name=".sesion_Iniciada" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

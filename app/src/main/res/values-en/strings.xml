@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MEMINDER</string>
+
+    //EditText
+    <string name="txt_usuaio">User</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_correo">Email</string>
+    <string name="txt_helper"></string>
+
+    //Buttons
+    <string name="btn_incio">Log in</string>
+    <string name="btn_registro">Sing up</string>
+    <string name="btn_registrar">Sing up</string>
+    <string name="btn_iniciar"><u>Do you already have an account?</u></string>
+
+    //Content
+    <string name="img_logo">Meminder</string>
+    <string name="img_user">User</string>
+    <string name="img_pass">Password</string>
+    <string name="img_floatingButton">FloattingButton</string>
+    <string name="content_description_ajustes">Settings</string>
+
+    //Activity 2
+    <string name="activity2_benvenido">Welcome</string>
+    <string name="img_regresar">Back</string>
+    <string name="ajutes">Settings</string>
+    <string name="home">Home</string>
+
+
+    //Text Cardview
+    <string name="nombre_Card">Account</string>
+    <string name="tipo_Plan">Plan</string>
+    <string name="Cantidad">Total.00</string>
+    <string name="demo_text">demo text</string>
+
+    //Add
+    <string name="cantidad_Add">0.00</string>
+    <string name="tipo_Moneda">MXN</string>
+    <string name="lbl_Nombre">Name</string>
+    <string name="txt_Nombre">Ex. Netflix</string>
+    <string name="lbl_Description">Description </string>
+    <string name="txt_Description">Ex. Plan Standard</string>
+    <string name="lbl_Facturacion">Billing </string>
+    <string name="lbl_Facturacion_Perdiodo">Every..  </string>
+    <string name="txt_dias">1</string>
+    <string name="txt_dias_periodo">Montlhy</string>
+    <string name="lbl_primer_Pago">First payment </string>
+    <string name="txt_primerPago">Select the date</string>
+    <string name="lbl_Color">Color </string>
+    <string name="txt_Color">Choose a color</string>
+    <string name="lbl_tipo_Pago">Payment type </string>
+    <string name="txt_tipo_Pago">Ex. Cash</string>
+    <string name="btn_submit">Save</string>
+
+    //Menu home
+    <string name="menu_sub">Payments</string>
+    <string name="menu_sub_archivadas">Archived</string>
+    <string name="menu_cantidad">Monthly</string>
+
+
+    //Menu Ajutes
+    <string name="menu_ajutes_Noti">Notifications</string>
+    <string name="menu_ajutes_Seguridad">Security</string>
+    <string name="menu_ajutes_Button"> > </string>
+    <string name="menu_ajutes_MO">Dark mode</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Texto desde Java-->
+    <string name="verficicacion">Required field</string>
+    <string name="mensaje_bievenida">Welcome</string>
+    <string name="requerido_Registro">Required*</string>
+    <string name="usuario_Desconocido">Unknown user </string>
+
+    <!--    Datos Spinner-->
+    <string name="item_1">Day</string>
+    <string name="item_2">Weekly</string>
+    <string name="item_3">Monthly</string>
+    <string name="item_4">Annual</string>
+
+    <!--    Datos pantallas-->
+    <string name="titulo"> Start </string>
+    <string name="titulo1">Registry</string>
+    <string name="titulo2">Settings</string>
+    <string name="titulo3">Security</string>
+    <string name="titulo4">Change password</string>
+    <string name="titulo5">Add</string>
+    <string name="titulo6">Details</string>
+
+
+    <!--    Datos detalles card-->
+    <string name="label_facturacion">Billing</string>
+    <string name="label_proximopago">Next payment</string>
+    <string name="label_primerpago">First payment</string>
+    <string name="label_pagototal">Total payment</string>
+    <string name="label_tipopago">Payment Type</string>
+    <string name="nombre_card"> Account</string>
+    <string name="nombre_sub"> Plan</string>
+    <string name="cantidad_sub"> $45.00</string>
+
+    <!--    Alertas mesajes emergentes-->
+    <string name="alerta_1"> Do you want to delete the card?</string>
+    <string name="opcion_1">Yes</string>
+    <string name="opcion_2">No</string>
+    <string name="titulo_alerta_1">Delete</string>
+
+
+    <!--    Pantalla Seguridad-->
+    <string name="label_seguridad">Security</string>
+    <string name="button_help">Support</string>
+    <string name="label_block">Lock screen on startup</string>
+    <string name="label_enablepass">Enable password</string>
+    <string name="label_changepass">Change Password</string>
+
+    <!--    Pantalla Cambiar Contarseña-->
+    <string name="label_cmabiarpass">CHANGE PASSWORD</string>
+    <string name="edt_mail">Enter your email</string>
+    <string name="alerta1">Wait a minute...</string>
+    <string name="alerta2">You must enter the email</string>
+    <string name="alerta3">An email has been sent to reset your password</string>
+    <string name="alerta4">The reset password email could not be sent</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="contrasena_vacia">The new password fields are empty</string>
+
+    <!--    Notificaciones-->
+    <string name="label_nombre_noty">Name</string>
+    <string name="label_cuenta_noty">New notification</string>
+    <string name="label_mismodia_noty">The same day</string>
+    <string name="label_hora_noty">Hour</string>
+    <string name="label_mensaje_noty">Message</string>
+    <string name="edit_dia">1</string>
+    <string name="edit_hora">9:30 a. m.</string>
+    <string name="edit_mensaje">  </string>
+
+</resources>
